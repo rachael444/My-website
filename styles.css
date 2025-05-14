@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    position: absolute;
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 250px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+nav .logo span {
+    font-size: 10px;
+}
+
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.hero-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(images/image\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.book_btn {
+    background-color: white;
+    color: #ff4d4d;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-content h4 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'cambria', sans-serif;
+}
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'cambria', sans-serif;
+}
