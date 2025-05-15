@@ -15,12 +15,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px 0 250px;
+    padding: 0 150px 0 250px;
+    background-color: red;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 
@@ -46,7 +47,12 @@ nav .logo span {
 .navlinks {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
 }
 
 
@@ -78,7 +84,7 @@ nav .logo span {
     font-size: 16px;
 }
 
-.hero-content h4 {
+.hero-content h4 { 
     font-size: 50px;
     margin-bottom: 20px;
     font-family: cursive;
