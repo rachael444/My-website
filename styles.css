@@ -14,15 +14,17 @@ header {
 nav {
     display: flex;
     align-items: center;
+    row-gap: 50px;
     justify-content: space-between;
-    padding: 0 150px 0 250px;
-    background-color: red;
+    Padding: 0 130px 0 200px;
+    background-color: none;
 }
 
 nav a {
     text-decoration: none;
     font-size: 15px;
     color: white;
+    align-items: center;
 }
 
 
@@ -34,25 +36,27 @@ nav .logo {
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px 20px;
-    font-size: 36px;
+    font-size: 40px;
+    font-style: inherit;
     font-weight: bold;
     color: white;
 }
 
 nav .logo span {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
 .navlinks {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 80px;
 }
 
 .social {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    color: white;
 }
 
 
@@ -68,6 +72,7 @@ nav .logo span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-style: inherit;
 }
 
 .hero-content {
@@ -85,15 +90,15 @@ nav .logo span {
 }
 
 .hero-content h4 { 
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
     font-family: cursive;
     font-weight: 300;
 }
 
 .hero-content h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 25px;
     font-family: 'cambria', sans-serif;
 }
 .hero-content p {
